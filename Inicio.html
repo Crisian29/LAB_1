@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+</head>
+<body>
+    <h3>CRISTIAN JAVIER MARTINEZ MARTINEZ - SMSS083722</h3>
+    <script src="ejercicios.js">
+        // **Aquí se coloca el código JavaScript de todos los ejercicios**
+
+        // 1. Operaciones básicas con variables
+        // Declaración de variables
+let numeroEntero = 10;
+let numeroDecimal = 5.5;
+
+// Operaciones matemáticas
+let suma = numeroEntero + numeroDecimal;
+let resta = numeroEntero - numeroDecimal;
+let multiplicacion = numeroEntero * numeroDecimal;
+let division = numeroEntero / numeroDecimal;
+let exponente = numeroEntero ** numeroDecimal;
+
+// Mostrar resultados en consola
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
+console.log("Exponente:", exponente);
+
+
+        // 2. Concatenación de cadenas de texto
+        // Declaración de variables
+let nombreCompleto = "Tu nombre completo";
+let carnetEstudiante = "Tu código de estudiante";
+
+// Concatenación de variables
+let nombreCompletoConCarnet = nombreCompleto + " - " + carnetEstudiante;
+
+// Mostrar resultado en consola
+console.log("Nombre completo con carné:", nombreCompletoConCarnet);
+
+
+        // 3. Conversión de número a cadena de texto
+        // Declaración de variable
+let numero = 123;
+
+// Conversión a cadena de texto
+let numeroComoTexto = String(numero);
+
+// Mostrar resultado en consola
+console.log("Número como texto:", numeroComoTexto);
+
+
+        // 4. Conversión de cadena de texto a número
+        // Declaración de variable
+let cadena = "456";
+
+// Conversión a número
+let cadenaComoNumero = Number(cadena);
+
+// Mostrar resultado en consola
+console.log("Cadena como número:", cadenaComoNumero);
+
+
+        // 5. Cálculo del peso en diferentes planetas
+        // Constantes de la gravedad
+const GRAVEDAD_TIERRA = 9.8;
+const GRAVEDAD_LUNA = 1.62;
+const GRAVEDAD_MARTE = 3.71;
+const GRAVEDAD_MERCURIO = 3.7;
+
+// Declaración de variable
+let masa = 70; // kg
+
+// Cálculo del peso en la Tierra
+let pesoTierra = masa * GRAVEDAD_TIERRA;
+
+// Cálculo del peso en la Luna
+let pesoLuna = masa * GRAVEDAD_LUNA;
+
+// Cálculo del peso en Marte
+let pesoMarte = masa * GRAVEDAD_MARTE;
+
+// Cálculo del peso en Mercurio
+let pesoMercurio = masa * GRAVEDAD_MERCURIO;
+
+// Mostrar resultados en consola
+console.log("Peso en la Tierra:", pesoTierra, "N");
+console.log("Peso en la Luna:", pesoLuna, "N");
+console.log("Peso en Marte:", pesoMarte, "N");
+console.log("Peso en Mercurio:", pesoMercurio, "N");
+
+    </script>
+</body>
+</html>
